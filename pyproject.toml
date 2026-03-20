@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ml2"
+version = "0.1.0"
+description = "Machine Learning 2: Tarefas e Exemplos"
+authors = [
+  "Francisco Ganacim <ganacim@impa.br>",
+  "Daniel Yukimura <yukimura@impa.br>",
+]
+readme = "README.md"
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "~3.12"
+torch = "^2.10.0"
+torchvision = "^0.25.0"
+tdqm = "^0.0.1"
+matplotlib = "^3.10.8"
+ipympl = "^0.10.0"
+numpy = "^2.4.3"
+ipykernel = "^7.2.0"
+pandas = "^3.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
