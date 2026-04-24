@@ -209,3 +209,11 @@ __marimo__/
 mlc/
 **/.__pycache__/
 .vscode
+.gitattributes
+output.png
+poetry.lock
+data/flickr8k/
+data/spiral/test.csv
+data/spiral/train.csv
+data/spiral/validation.csv
+trabalho_1/data/cifar-10*
